@@ -5,7 +5,7 @@ const flags = require('ray-flags');
 const {sucide} = require('sucide');
 const path = require('path');
 
-if (flags.v) sucide("v1.0.0");
+if (flags.v) sucide("v1.0.1");
 if (flags.f === undefined) sucide("No valid file provided!");
 
 const fileURI = flags.f;
@@ -29,8 +29,5 @@ const compiledFile = fileContents.map(line => {
 const fileExt = path.extname(fileURI);
 const fileNameWithoutExt = path.basename(fileURI, fileExt);
 
-function includeNow() {
-  fs.write(`${fileNameWithoutExt}.included${fileExt}`, compiledFile);
-}
-includeNow();
+fs.write(`${fileNameWithoutExt}.included${fileExt}`, compiledFile);
 

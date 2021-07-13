@@ -1,6 +1,6 @@
 {
   "name": "ray-include",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A linking tool to dynamically link header files for JavaScript, NodeJS, and all other programming languages.",
   "main": "ray-include.min.js",
   "scripts": {
