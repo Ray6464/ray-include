@@ -1,0 +1,32 @@
+{
+  "name": "ray-include",
+  "version": "1.0.0",
+  "description": "A linking tool to dynamically link header files for JavaScript, NodeJS, and all other programming languages.",
+  "main": "ray-include.min.js",
+  "scripts": {
+    "test": "node tests/mainTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ray6464/ray-include.git"
+  },
+  "keywords": [
+    "include",
+    "javaScript",
+    "NodeJS",
+    "C",
+    "C++",
+    "ray-userland"
+  ],
+  "author": "Ray Voice, Anna Voice",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ray6464/ray-include/issues"
+  },
+  "homepage": "https://github.com/Ray6464/ray-include#readme",
+  "dependencies": {
+    "ray-flags": "^0.0.7",
+    "ray-fs": "^2.2.1",
+    "sucide": "^1.0.1"
+  }
+}

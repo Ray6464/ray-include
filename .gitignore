@@ -1,3 +1,7 @@
+# Tests and Uglified
+tests
+ray-include.min.js
+
 # Logs
 logs
 *.log
